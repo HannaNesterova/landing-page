@@ -16,6 +16,63 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+// COLOR
+$color-icons:rgb(205, 179, 8);
 body {
-	background-color: aqua;
+	background-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    }   
+#header {
+    background-image: url("../images/back.png"); 
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    #logo {
+        color:$color-icons;
+        font-style: italic;
+        font-size: 19px;
+    }
+    .link-header{
+        color: aliceblue;
+    }
+    h3 {
+        color: aliceblue;
+        font-size: 33px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: italic;
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 55px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+    }
+    .btn {
+        color:aliceblue;
+        background-color: rgb(205, 179, 8);
+        border: none;
+        border-radius: 0px;
+        font-size: 14px;
+        padding: 13px 33px;
+    }
 }
+
+.section-servis{
+    h6{
+        font-size: 40px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+    }
+    p{
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+    }
+}
+
