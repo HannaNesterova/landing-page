@@ -133,13 +133,44 @@ footer{
 
 }
 
+@media all and (max-width: 1024px){
+    #header{
+        .main-text{
+            margin-bottom: 100px;
+        }
+    }
+}
+@media all and (max-width: 820px){
+    #header{
+        .main-text{
+            margin-bottom: 250px;
+        }
+    }
+}
+
 @media all and (max-width: 414px){
+    body{
+        min-width: 414px;
+    }
     #header{
         h3 {
             font-size: 25px;
         }
         h1 {
             font-size: 29px;
+        }
+            }
+}
+@media all and (max-width: 400px){
+    body{
+        min-width: 400px;
+    }
+    #header{
+        h3 {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 26px;
         }
             }
 }
