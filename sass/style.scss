@@ -59,6 +59,9 @@ body {
         font-size: 14px;
         padding: 13px 33px;
     }
+    .main-text{
+        margin-top: 150px;
+    }
 }
 
 .section-servis{
@@ -127,10 +130,16 @@ body {
 }
 footer{
     background-color: rgb(255, 255, 255);
-    
+
 }
 
-@media all and (max-width: 1024px){
-    
-
+@media all and (max-width: 414px){
+    #header{
+        h3 {
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 29px;
+        }
+            }
 }
