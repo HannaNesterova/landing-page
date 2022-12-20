@@ -62,7 +62,7 @@ body {
 }
 
 .section-servis{
-    h6{
+    h6 {
         font-size: 40px;
         color: black;
         text-transform: uppercase;
@@ -75,7 +75,6 @@ body {
         text-align: center;
         font-family: 'Raleway', sans-serif;
         font-style: italic;
-        line-height: -5px;
     }
     .column-title {
         text-align: center;
@@ -99,8 +98,21 @@ body {
         border-radius: 50%;
     }
 }
-.section-portfolio{
+.section-portfolio {
     background-color: rgb(209, 209, 209);
-    
+    .portfolio-head{
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+    }
+    h6 {
+        font-size: 40px;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+    }
 }
 
