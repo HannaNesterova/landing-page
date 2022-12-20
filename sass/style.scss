@@ -1,3 +1,5 @@
+
+
 // Файл обнуляющих стилей
 /*Обнуление*/
 *{padding: 0;margin: 0;border: 0;}
@@ -5,7 +7,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+html,body{height:100%;width:100%;font-size:100%;line-height:2;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -73,14 +75,29 @@ body {
         text-align: center;
         font-family: 'Raleway', sans-serif;
         font-style: italic;
+        line-height: -5px;
     }
     .column-title {
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: bold;
     }
-    .column-title{
-        font-weight: bold;
+  
+    svg {
+        width: 40px;
+        height: 40px;
+        color: rgb(205, 179, 8);
+        margin-top: 10px;
     }
+    .icons {    
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid  rgb(205, 179, 8);
+        border-radius: 50%;
+    }
+
 }
 
