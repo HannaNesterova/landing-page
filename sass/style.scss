@@ -23,6 +23,7 @@ $color-icons:rgb(205, 179, 8);
 body {
 	background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
+    position: relative;
     .row {
         margin-left: 0;
         margin-right: 0;
@@ -47,6 +48,11 @@ body {
             font-weight: bold;
         }
     }
+    .arrow-up {
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+    }
     h3 {
         color: aliceblue;
         font-size: 33px;
@@ -70,6 +76,18 @@ body {
             background-color: rgb(255, 255, 255);
             color: rgb(205, 179, 8);
         }
+    }
+    svg {    
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid  rgb(205, 179, 8);
+        border-radius: 50%;
+    }
+    path{
+        color:  rgb(205, 179, 8);
     }
     .main-text{
         margin-bottom: 150px;
