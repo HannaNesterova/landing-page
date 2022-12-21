@@ -23,6 +23,10 @@ $color-icons:rgb(205, 179, 8);
 body {
 	background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
     }   
 #header {
     background-image: url("../images/back.png"); 
@@ -30,7 +34,6 @@ body {
     background-size: cover;
     height: 100vh;
     position: relative;
-    background-attachment: fixed;
     #logo {
         color:$color-icons;
         font-style: italic;
