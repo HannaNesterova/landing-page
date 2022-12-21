@@ -39,8 +39,13 @@ body {
         font-style: italic;
         font-size: 19px;
     }
-    .link-header{
-        color: aliceblue;
+    .link-header {
+        color: rgb(183, 183, 183);
+        &:hover {
+            border-bottom: 7px solid white;
+            color: aliceblue;
+            font-weight: bold;
+        }
     }
     h3 {
         color: aliceblue;
