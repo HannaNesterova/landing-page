@@ -52,6 +52,7 @@ body {
         position: fixed;
         right: 50px;
         bottom: 50px;
+        z-index: 3;
     }
     h3 {
         color: aliceblue;
@@ -179,6 +180,12 @@ footer{
             margin-bottom: 250px;
         }
     }
+    #header h3 {
+        font-size: 25px;
+      }
+      #header h1 {
+        font-size: 29px;
+      }
 }
 
 @media all and (max-width: 414px){
