@@ -61,6 +61,10 @@ body {
         border-radius: 0px;
         font-size: 14px;
         padding: 13px 33px;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(205, 179, 8);
+        }
     }
     .main-text{
         margin-bottom: 150px;
