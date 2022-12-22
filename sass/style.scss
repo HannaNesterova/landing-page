@@ -39,6 +39,9 @@ body {
         color:$color-icons;
         font-style: italic;
         font-size: 19px;
+        &:hover{
+            text-shadow: 3px 3px 3px rgb(255, 255, 255);
+        }
     }
     .link-header {
         color: rgb(183, 183, 183);
